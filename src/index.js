@@ -1,3 +1,7 @@
-import getGreeting from "./greet";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import '@babel/polyfill';
+import './styles.css';
 
-console.log(getGreeting('World'));
+ReactDOM.render(<App />, document.getElementById('app'));

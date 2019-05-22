@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 const Warning = React.lazy(() => import('./Warning'));
 
-const a = "b";
 class App extends Component {
   state = {
     count: 0
