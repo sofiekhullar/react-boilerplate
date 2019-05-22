@@ -1,3 +1,3 @@
-import greet from "./greet";
+import getGreeting from "./greet";
 
-console.log("index.js", greet);
+console.log(getGreeting('World'));
